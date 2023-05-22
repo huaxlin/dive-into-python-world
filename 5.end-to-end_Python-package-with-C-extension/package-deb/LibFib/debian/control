@@ -1,0 +1,12 @@
+Source: libfib
+Section: libs
+Priority: optional
+Maintainer: huaxlin <featureoverload.gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/huaxlin/dive-into-python-world
+
+Package: libfib
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: A shared object file for libfib
