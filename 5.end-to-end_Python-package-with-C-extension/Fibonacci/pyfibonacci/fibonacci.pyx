@@ -1,4 +1,4 @@
-cimport cfibonacci
+from pyfibonacci cimport cfibonacci
 
 
 cpdef long fib(long ord):

@@ -24,15 +24,15 @@ Before we run the module, we also need to make sure that `lib{xxx}` is in the LD
 
 ```shell
 $ export LD_LIBRARY_PATH=`pwd`:$LD_LIBRARY_PATH
-$ export PYTHONPATH=.
+$ ### export PYTHONPATH=.
 $
-$ time python -c 'from fibonacci import fib; print(fib(36))'
+$ time python -c 'from pyfibonacci import fib; print(fib(36))'
 14930352
-python -c 'from fibonacci import fib; print(fib(36))'  0.09s user 0.02s system 75% cpu 0.147 total
+python -c 'from pyfibonacci import fib; print(fib(36))'  0.09s user 0.02s system 75% cpu 0.147 total
 $
-$ time python -c 'from fibonacci import fib; print(fib(43))'
+$ time python -c 'from pyfibonacci import fib; print(fib(43))'
 433494437
-python -c 'from fibonacci import fib; print(fib(43))'  2.33s user 0.03s system 98% cpu 2.386 total
+python -c 'from pyfibonacci import fib; print(fib(43))'  2.33s user 0.03s system 98% cpu 2.386 total
 ```
 
 ```shell
@@ -50,7 +50,7 @@ print(fib(%d))
 14930352
 3.1384832080000002
 >>>
->>> timeit("from fibonacci import fib; print(fib(36))", number=1)
+>>> timeit("from pyfibonacci import fib; print(fib(36))", number=1)
 14930352
 0.10655062499999701
 >>>
