@@ -8,5 +8,5 @@ data = np.loadtxt('mandelbrot_set.txt')
 plt.imshow(data.T, extent=[-2, 1, -1.5, 1.5])
 plt.gray()
 
-# plt.show()
-plt.savefig('mandelbrot_set.png')
+plt.show()
+# plt.savefig('mandelbrot_set.cpp.png')
