@@ -21,6 +21,6 @@ if __name__ == '__main__':
         except AssertionError:
             raise
         else:
-            print('tow image are almost equal.')
+            print('Two image are almost equal.')
 
     test_two_image_almost_equal()

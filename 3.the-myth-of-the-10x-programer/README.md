@@ -18,5 +18,5 @@ $ ./mandelbrot_set
 $ python plot_mandelbrot_set.py
 $
 $ python testing.py mandelbrot_set.numpy.png mandelbrot_set.cpp.png
-tow image are almost equal.
+Two image are almost equal.
 ```
